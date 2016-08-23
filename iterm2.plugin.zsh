@@ -89,7 +89,7 @@ if [[ -o login ]]; then
       ITERM2_SHOULD_DECORATE_PROMPT=""
 
       # Add our escape sequences just before the prompt is shown.
-      PS1="%{$(iterm2_prompt_start)%} $PS1%{$(iterm2_prompt_end)%}"
+      PS1="%{$(iterm2_prompt_start)%}$PS1%{$(iterm2_prompt_end)%}"
     }
 
     iterm2_precmd() {
